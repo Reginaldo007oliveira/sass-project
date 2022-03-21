@@ -1,13 +1,19 @@
+@import '../abstract/variaveveis';
 nav {
     text-align: center;
+    background-color: $cor-terciaria;
     ul{
+      
         li{
             display: inline-block;
             padding: 1rem;
+            
             a{
                 text-transform: uppercase;
                 text-decoration: none;
-                font-weight: bold;
+                font-weight: 900;
+                color: $cor-primaria;
+                
             }
         }
     }
