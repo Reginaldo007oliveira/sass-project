@@ -18,4 +18,8 @@ nav ul li a {
   font-weight: 900;
   color: #1d316d;
 }
+
+nav ul li a:hover {
+  border-bottom: 2px solid #74959A;
+}
 /*# sourceMappingURL=style.css.map */
