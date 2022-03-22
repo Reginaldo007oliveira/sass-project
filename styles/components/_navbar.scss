@@ -1,7 +1,7 @@
 @import '../abstract/variaveveis';
 nav {
     text-align: center;
-    background-color: $cor-terciaria;
+    background-color:$cor-subtitulo;
     ul{
       
         li{
@@ -11,9 +11,9 @@ nav {
             a{
                 text-transform: uppercase;
                 text-decoration: none;
-                font-weight: 900;
+                font-weight: 300;
                 color: $cor-primaria;
-                &:hover{
+                &:hover {
                     border-bottom: 2px solid $cor-secundaria
                 }
                 

@@ -4,38 +4,43 @@ html, body {
 
 nav {
   text-align: center;
-  background-color: #aceff1;
+  background-color: #0f4964;
 }
-
 nav ul li {
   display: inline-block;
   padding: 1rem;
 }
-
 nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 900;
-  color: #1d316d;
+  font-weight: 300;
+  color: #08e07bda;
 }
-
 nav ul li a:hover {
-  border-bottom: 2px solid #74959A;
+  border-bottom: 2px solid #03775483;
 }
 
 .banner {
   background: url(../../imagens/banner.jpeg) 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   opacity: 0.9;
 }
-/*# sourceMappingURL=style.css.map */
+.banner .inner-banner {
+  padding: 6rem;
+  background-color: #03775483;
+  opacity: 0.9;
+  border-radius: 45px;
+  width: 555px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #0f4964;
+}
+.banner .inner-banner h2 {
+  font-size: 2rem;
+  color: #0f4964;
+}/*# sourceMappingURL=style.css.map */

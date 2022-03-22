@@ -1,3 +1,4 @@
+@import '../abstract/variaveveis';
 .banner{
     background: url(../../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
@@ -6,4 +7,22 @@
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+    .inner-banner {
+        padding: 6rem;
+        background-color: $cor-secundaria ;
+        opacity: 0.9;
+        border-radius: 45px;
+        width: 555px;
+
+        h1{
+            font-size: $tamanho-do-texto;
+            color: $cor-subtitulo;
+            
+        }
+        h2{
+            font-size: $tamanho-do-texto-dois;
+            color: $cor-subtitulo;
+            
+        }
+    }
 }
