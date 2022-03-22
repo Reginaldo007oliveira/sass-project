@@ -1,0 +1,18 @@
+@import '../abstract/variaveveis';
+#servicos {
+   margin: 90px;
+   h4 {
+    font-size: $tamanho-do-texto / 0.5;
+    color: $cor-secundaria;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+    margin: 2rem;
+   }
+   h3 {
+      text-align: center;
+      font-size:  $tamanho-do-texto / 1.5;
+      margin-bottom: 80px;
+      font-weight: 100;
+   }
+}
