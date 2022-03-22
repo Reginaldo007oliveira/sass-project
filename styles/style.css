@@ -4,7 +4,7 @@ html, body {
 
 nav {
   text-align: center;
-  background-color: #0f4964;
+  background-color: #045224;
 }
 nav ul li {
   display: inline-block;
@@ -14,10 +14,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 300;
-  color: #08e07bda;
+  color: #90f7beda;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #03775483;
+  border-bottom: 2px solid #90f7beda;
 }
 
 .banner {
@@ -31,16 +31,16 @@ nav ul li a:hover {
 }
 .banner .inner-banner {
   padding: 6rem;
-  background-color: #03775483;
+  background-color: #b37a0083;
   opacity: 0.9;
   border-radius: 45px;
   width: 555px;
 }
 .banner .inner-banner h1 {
   font-size: 3rem;
-  color: #0f4964;
+  color: #10f2fa;
 }
 .banner .inner-banner h2 {
   font-size: 2rem;
-  color: #0f4964;
+  color: #60f30b;
 }/*# sourceMappingURL=style.css.map */

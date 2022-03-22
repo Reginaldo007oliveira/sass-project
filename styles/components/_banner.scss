@@ -16,12 +16,13 @@
 
         h1{
             font-size: $tamanho-do-texto;
-            color: $cor-subtitulo;
+            // $cor-primaria: greens; conceito de escopo
+            color: $cor-primaria;
             
         }
         h2{
             font-size: $tamanho-do-texto-dois;
-            color: $cor-subtitulo;
+            color: $cor-terciaria;
             
         }
     }
